@@ -1,5 +1,5 @@
 body{
-background-color: darkgray;
+/* background-color: darkgray; */
 }
 h1{
     color: darkred;
@@ -41,3 +41,31 @@ h2{
         color: black;
         font-family: monospace;
     }
+
+    @media screen and (max-width: 480px) {
+        body{
+            background-color: saddlebrown;
+        }
+        p{
+            border: none;
+        }
+        h1{
+            font-size: 20px;
+        }
+        .clothes{
+            border: none;
+        }
+
+    }
+
+@media screen and (min-width: 768px){
+    body{
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    body{
+        background-color: green;
+    }
+}
