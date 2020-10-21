@@ -15,9 +15,7 @@ h2{
     text-align: justify;
 
     }
-    .first-section{
-        border: black solid 10px;
-    }
+    
 
     p{
         font-style: italic;
@@ -35,7 +33,7 @@ h2{
     .clothes{
         margin-top: 25px;
         border: cornflowerblue solid 10px;
-        font-family: fantasy;
+        /* font-family: fantasy; */
     }
     .gold{
         color: black;
@@ -46,11 +44,13 @@ h2{
         body{
             background-color: saddlebrown;
         }
-        p{
-            border: none;
-        }
+       
         h1{
             font-size: 20px;
+        }
+        h2{
+            font-size: 25px;
+            
         }
         .clothes{
             border: none;
@@ -61,6 +61,19 @@ h2{
 @media screen and (min-width: 768px){
     body{
         background-color: yellow;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 35px;
+        /* font-style: italic; */
+    }
+    .clothes{
+        border: none;
+        font-family: monospace;
+        font-style: none;
+        color: hotpink;
     }
 }
 
