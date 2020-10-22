@@ -25,7 +25,7 @@ body{
 
 } 
 
-/*
+
 h1{
     color: darkred;
     text-align: center;
@@ -58,7 +58,7 @@ h2{
     .clothes{
         margin-top: 25px;
         border: cornflowerblue solid 10px;
-        /* font-family: fantasy; 
+         font-family: fantasy; 
     }
     .gold{
         color: black;
@@ -92,7 +92,7 @@ h2{
     }
     h2{
         font-size: 35px;
-        /* font-style: italic; 
+        font-style: italic; 
     }
     .clothes{
         border: none;
@@ -107,4 +107,3 @@ h2{
         background-color: green;
     }
 } 
-*/
