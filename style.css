@@ -1,6 +1,31 @@
 body{
 /* background-color: darkgray; */
 }
+
+.flexbox-container {
+    display: flex;
+
+
+
+
+}
+
+.flexbox-item {
+    /* border: gray 7px solid; */
+     justify-content: space-between; 
+    /* padding-top: 20px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+ .one {
+     flex-grow: 1 ; 
+    flex-shrink: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+} 
+
+/*
 h1{
     color: darkred;
     text-align: center;
@@ -33,7 +58,7 @@ h2{
     .clothes{
         margin-top: 25px;
         border: cornflowerblue solid 10px;
-        /* font-family: fantasy; */
+        /* font-family: fantasy; 
     }
     .gold{
         color: black;
@@ -67,7 +92,7 @@ h2{
     }
     h2{
         font-size: 35px;
-        /* font-style: italic; */
+        /* font-style: italic; 
     }
     .clothes{
         border: none;
@@ -81,4 +106,5 @@ h2{
     body{
         background-color: green;
     }
-}
+} 
+*/
