@@ -1,5 +1,6 @@
 body{
-/* background-color: darkgray; */
+cursor: grab;
+
 }
 
 .flexbox-container {
@@ -73,12 +74,41 @@ h2{
     bottom: 0%;
     }
     .list{ 
+        height: 100px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: static;
+        top: 0;
+        width: 100%;
+       }
+    .li2 {
+float: right;
+
+    }
+    .li2 a{
         display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
+  transition-property: font-size, font-family, transform;
+  transition-duration: 4s;
     }
+
+    .li2 a:hover:not(.active) {
+        background-color: gray;
+        font-size: 15px;
+        font-family: 'Bebas Neue', cursive;
+        transform: translateX(-50px);
+        font-size: 20px;
+    
+      }
+
+    
    
 
     @media screen and (max-width: 480px) {
